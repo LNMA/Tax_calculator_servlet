@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>TAX CALCULATOR</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	    @import url(taxs_css.css);
+	</style>
+	<script src="taxs_js.js"></script>
+    </head>
+    <body id="page">
+	<header id="headerHtml">
+	    <form action="MyTax" method="post">
+		<table>
+		    <tr>
+			<td>
+			    <h2 id="headLabel">Input your net income:</h2>
+
+			</td>
+		    </tr>
+		    <tr>
+			<td>
+			    <input type="number" name="income"><br>
+			</td>
+			<td>
+			    <input type="checkbox" name="married" id="check" onclick="showKid()" value="checked">Married
+			</td>
+			<td>
+			    <div id="kids"></div>
+			</td>
+		    </tr>
+		</table>
+		<br>
+		<input type="submit" name="sub" value="Calculate">
+	    </form>
+	</header>
+    </body>
+</html>

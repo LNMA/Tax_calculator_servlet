@@ -1,0 +1,27 @@
+#headLabel{
+color: cornsilk;
+}
+
+#result{
+    color:limegreen;
+}
+
+#headerHtml{
+    background-color: #999999;
+    margin: 150px 450px;
+    width: 500px;
+    height: 200px;
+}
+#page{
+    background: linear-gradient(to right,#330033,#851313);
+}
+#headerRlt{
+    background-color: #424242;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    margin: 200px 500px;
+    width: 400px;
+    height: 120px;
+}
